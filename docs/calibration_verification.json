@@ -1,0 +1,16 @@
+{
+  "artifact_sha256": "62edede3bf96bbe51bf8a5aef3bda08a17173dd069d63ebf058b05bef518b1e2",
+  "clips": 256,
+  "training_data": {
+    "physical_frames": 3140,
+    "images_sha256": "75adbce93f85c28294018699384eeca3a4c827c4460544c86b18b88b6eea12b1",
+    "gt_sha256": {
+      "MOT17-02": "2e3ecb488da8886d3200d402b2b08890c6d2879923839444e9b74fa43a551440",
+      "MOT17-04": "f8cfbe36ef38a2e1857d7ebfe7d754b2355a3ffb9e1f9cedea435e86e4fbc948",
+      "MOT17-05": "ed74c54176b21b38cb690eda79a4755cf16e4c4a9ca2f019b0ba8904636174f5",
+      "MOT17-10": "f8cca05d98fa36d8b6f2b807e03d32407d00d40299d679e4da320e42862677c0"
+    }
+  },
+  "status": "calibrated",
+  "scope": "Training-only entropy calibration, not AP or BD-Rate benchmark results"
+}
