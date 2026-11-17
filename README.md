@@ -5,7 +5,7 @@ Chạy hai phương pháp tiền xử lý trên **cùng điều kiện MOT17/x26
 - **SCOPE:** dùng mạng và hàm loss hỗ trợ từ mã chính thức, pin commit và kiểm hash; thích ứng sang MOT17/x265.
 - **Zhao et al.:** tự cài đặt theo *A Preprocessing Framework for Video Machine Vision under Compression*; ghi rõ các giả định kiến trúc, codec và task loss.
 
-**Trạng thái:** đã xác minh hiệu chuẩn entropy trên GPU Tesla T4 với 256 train clip. Hai canary đã được gửi lên Kaggle riêng tư. Chưa có benchmark AP/BD-Rate hoàn chỉnh. Mã này không phải bản tái lập các số COCO/GOT-10K gốc của hai bài.
+**Trạng thái:** đã xác minh hiệu chuẩn entropy trên GPU Tesla T4 với256 train clip. Cả hai canary đã đạt128 optimizer update trên MOT17 thật, tải checkpoint về và kiểm tra hash/tensor hữu hạn; cùng protocol hash, dữ liệu và teacher. [Bằng chứng GPU](docs/gpu_canary_verification.json). Bộ test repo: **19 passed**. Chưa có benchmark AP/BD-Rate hoàn chỉnh. Mã này không phải bản tái lập các số COCO/GOT-10K gốc của hai bài.
 
 ## Điều kiện chung
 

@@ -2,7 +2,8 @@
 
 Trạng thái ngày 17/11/2026: người dùng đã cho phép rõ việc gửi mã lên
 Kaggle riêng tư. **Hiệu chuẩn entropy đã hoàn thành** và artifact đã được
-tải về kiểm hash/source/runtime. Hai canary đang được triển khai. Chưa có
+tải về kiểm hash/source/runtime. Hai canary đã đạt128 optimizer update,
+checkpoint đã tải về và xác minh. Xem `gpu_canary_verification.json`. Chưa có
 kết quả AP/BD-Rate hoàn chỉnh; trạng thái cụ thể nằm trong manifest.
 
 Artifact chung: `62edede3bf96bbe51bf8a5aef3bda08a17173dd069d63ebf058b05bef518b1e2`.
